@@ -1,0 +1,65 @@
+/* site.css */
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .main-content {
+      flex: 1;
+    }
+    .navbar .navbar-brand {
+      margin: auto;
+    }
+    .footer {
+      padding: 2rem 1rem;
+    }
+    .footer img {
+      max-width: 100px;
+    }
+    .social-icons a {
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 40pt;
+      text-transform: uppercase;
+      font-style: normal;
+    }
+    h2 {
+      font-family: 'Archivo Narrow', sans-serif;
+      font-weight: 700;
+      margin-top: 1.5rem;
+      font-size: 38pt;
+    }
+    h3 {
+      font-family: 'Archivo Narrow', sans-serif;
+      font-weight: 700;
+      margin-top: 1.5rem;
+      font-size: 30pt;
+    }
+    p {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 18pt;
+      font-style: normal;
+    }
+    .nav-item {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200;
+      font-size: 24pt;
+      font-style:normal;
+      text-transform: uppercase;
+    }
+.carousel-inner img {
+  height:700px;
+  object-fit: cover;
+}
+.footer img {
+  max-width:250px;
+}
+
+.footer a img {
+  max-height: 30px;
+}
